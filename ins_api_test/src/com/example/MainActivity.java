@@ -47,7 +47,6 @@ public class MainActivity extends Activity
         ImageView imageView2 = (ImageView) findViewById(R.id.image2);
         ImageView imageView3 = (ImageView) findViewById(R.id.image3);
         ImageView imageView4 = (ImageView) findViewById(R.id.image4);
-
     }
 
 
