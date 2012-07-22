@@ -1,26 +1,61 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
               android:orientation="vertical"
               android:layout_width="fill_parent"
               android:layout_height="fill_parent"
-              android:id="@+id/layout">
-    <TextView android:layout_width="fill_parent"
-              android:layout_height="wrap_content"
-              android:text="Camera Demo"
-              android:textSize="24sp"/>
-
-    <FrameLayout android:id="@+id/preview"
-                 android:layout_weight="1"
-                 android:layout_width="fill_parent"
-                 android:layout_height="fill_parent">
-    </FrameLayout>
-
-    <Button android:layout_width="wrap_content"
+        >
+    <TextView
+            android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/buttonClick"
-            android:text="Click"
-            android:onClick="gotoCameraView"
-            android:layout_gravity="center"/>
-
+            android:text="hello"
+            />
+    <Button android:id="@+id/startcamerapreview"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="- Start Camera Preview -"
+            />
+    <Button
+            android:id="@+id/stopcamerapreview"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="- Stop Camera Preview -"
+            />
+    <SurfaceView
+            android:id="@+id/surfaceview"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            />
 </LinearLayout>
+<!--<?xml version="1.0" encoding="utf-8"?>-->
+
+<!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+              <!--android:orientation="vertical"-->
+              <!--android:layout_width="fill_parent"-->
+              <!--android:layout_height="fill_parent"-->
+              <!--android:id="@+id/layout">-->
+
+    <!--<TextView android:layout_width="fill_parent"-->
+              <!--android:layout_height="wrap_content"-->
+              <!--android:text="Camera Demo"-->
+              <!--android:textSize="24sp"/>-->
+
+    <!--<SurfaceView-->
+            <!--android:id="@+id/surfaceview"-->
+            <!--android:layout_width="fill_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--/>-->
+
+    <!--&lt;!&ndash;<FrameLayout android:id="@+id/preview"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_weight="1"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_width="fill_parent"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_height="fill_parent">&ndash;&gt;-->
+    <!--&lt;!&ndash;</FrameLayout>&ndash;&gt;-->
+
+    <!--<Button android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:id="@+id/gotoMainViewButton"-->
+            <!--android:text="Click"-->
+            <!--android:onClick="gotoBackToMainView"-->
+            <!--android:layout_gravity="center"/>-->
+
+<!--</LinearLayout>-->

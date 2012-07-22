@@ -20,6 +20,7 @@
                 android:layout_height="293dp"
                 android:id="@+id/gotoCameraViewButton"
                 android:text="Click"
+                android:onClick="gotoCamera"
                 android:layout_gravity="center_horizontal|top"/>
 
         <ImageView android:src="#ff00f0"
